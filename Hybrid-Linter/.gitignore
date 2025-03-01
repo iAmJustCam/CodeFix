@@ -1,0 +1,9 @@
+package-lock.json
+cache/
+.DS_Store
+*.bak
+node_modules/
+eslint-autofix/sensitive-data.txt
+.env
+.env 2
+package-lock.json

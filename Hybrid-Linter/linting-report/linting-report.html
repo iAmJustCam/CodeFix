@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESLint Fix Report</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.5;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    h1, h2, h3 { color: #1a73e8; }
+    .summary-card {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .stats-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+    .stat-item {
+      background: white;
+      border-radius: 6px;
+      padding: 1rem;
+      flex: 1;
+      min-width: 200px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .stat-value {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin: 0.5rem 0;
+    }
+    .stat-label {
+      font-size: 0.9rem;
+      color: #555;
+      text-align: center;
+    }
+    .success-rate {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #34a853;
+    }
+    .progress-bar {
+      width: 100%;
+      background-color: #e0e0e0;
+      border-radius: 4px;
+      margin: 1rem 0;
+    }
+    .progress-fill {
+      height: 20px;
+      background-color: #34a853;
+      border-radius: 4px;
+      width: 100%;
+    }
+    .file-list {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+    }
+    .file-list h3 {
+      padding: 1rem;
+      margin: 0;
+      border-bottom: 1px solid #eee;
+    }
+    .file-list ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    .file-list li {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid #eee;
+    }
+    .file-list li:last-child {
+      border-bottom: none;
+    }
+    .category-chart {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+    .category-bar {
+      width: 100%;
+      padding: 0.5rem 0;
+      display: flex;
+      align-items: center;
+    }
+    .category-name {
+      width: 150px;
+      text-align: right;
+      padding-right: 1rem;
+      font-weight: 500;
+    }
+    .category-value {
+      flex: 1;
+      background: #e0e0e0;
+      border-radius: 4px;
+      height: 20px;
+      position: relative;
+    }
+    .category-fill {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      border-radius: 4px;
+    }
+    .category-number {
+      margin-left: 0.5rem;
+      font-weight: 500;
+    }
+    pre {
+      background: #f5f5f5;
+      padding: 1rem;
+      border-radius: 4px;
+      overflow-x: auto;
+    }
+    code {
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: 0.9rem;
+    }
+    .recommendations h3 {
+      color: #ea4335;
+    }
+    .recommendation-item {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+    }
+    .rule-name {
+      font-family: monospace;
+      background: #f5f5f5;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>ESLint Auto-Fix Report</h1>
+  <p>Generated on 2/28/2025, 8:36:14 PM</p>
+
+  <div class="summary-card">
+    <h2>Summary</h2>
+    <div class="stats-container">
+      <div class="stat-item">
+        <div class="stat-value">1</div>
+        <div class="stat-label">Total Issues</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">1</div>
+        <div class="stat-label">Fixed Issues</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">0</div>
+        <div class="stat-label">Remaining Issues</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">1</div>
+        <div class="stat-label">Files Processed</div>
+      </div>
+    </div>
+
+    <div style="text-align: center; margin: 2rem 0;">
+      <div class="success-rate">100%</div>
+      <div style="font-size: 1.2rem; color: #555;">Success Rate</div>
+    </div>
+
+    <div class="progress-bar">
+      <div class="progress-fill"></div>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; color: #555; font-size: 0.9rem;">
+      <div>Duration: 12s</div>
+      <div>Directory: ./</div>
+    </div>
+  </div>
+
+  <h2>Issues by Category</h2>
+  <div class="category-chart">
+    
+          <div class="category-bar">
+            <div class="category-name">UNUSED</div>
+            <div class="category-value">
+              <div class="category-fill" style="width: 100%; background-color: #34a853;"></div>
+            </div>
+            <div class="category-number">1 (100%)</div>
+          </div>
+        
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 2rem;">
+    <div style="flex: 1; min-width: 300px;">
+      <div class="file-list">
+        <h3>Successfully Fixed (1)</h3>
+        <ul>
+          <li>test.ts</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="flex: 1; min-width: 300px;">
+      <div class="file-list">
+        <h3>Partially Fixed (0)</h3>
+        <ul>
+          <li style="color: #757575;">No partially fixed files</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="flex: 1; min-width: 300px;">
+      <div class="file-list">
+        <h3>Unfixed (0)</h3>
+        <ul>
+          <li style="color: #757575;">No unfixed files</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <h2>Fix Method Breakdown</h2>
+  <div class="stats-container">
+    <div class="stat-item">
+      <div class="stat-value">0</div>
+      <div class="stat-label">Fixed by ESLint</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">0</div>
+      <div class="stat-label">Fixed by AI</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">1</div>
+      <div class="stat-label">Fixed by Pattern Matching</div>
+    </div>
+  </div>
+
+  <h2>Next Steps</h2>
+  <div class="summary-card">
+    <p>To address the remaining 0 issues:</p>
+    <ol>
+      <li>Review the "Manual Fix Recommendations" section for guidance on specific issues</li>
+      <li>Run ESLint manually on specific files to get more detailed feedback</li>
+      <li>Consider adding ESLint rules to .eslintignore for valid exceptions</li>
+      <li>Rerun this tool after making manual changes to fix any new issues introduced</li>
+    </ol>
+  </div>
+</body>
+</html>

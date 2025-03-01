@@ -1,0 +1,11 @@
+{
+  "name": "hybrid-linter",
+  "version": "1.0.0",
+  "description": "Advanced TypeScript linting tools with AI assistance",
+  "scripts": {
+    "fix": "node eslint-autofix/eslint-autofix.js",
+    "fix:interactive": "node eslint-autofix/eslint-autofix.js --interactive",
+    "fix:batch": "node eslint-autofix/eslint-autofix.js --batch"
+  },
+  "license": "MIT"
+}
