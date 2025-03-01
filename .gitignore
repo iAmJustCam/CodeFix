@@ -3,8 +3,3 @@ cache/
 .DS_Store
 *.bak
 node_modules/
-package-lock.json
-cache/
-.DS_Store
-*.bak
-node_modules/
