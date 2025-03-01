@@ -5,3 +5,4 @@ cache/
 node_modules/
 eslint-autofix/sensitive-data.txt
 Hybrid-Linter/eslint-autofix/package-lock.json
+Hybrid-Linter.bfg-report/
