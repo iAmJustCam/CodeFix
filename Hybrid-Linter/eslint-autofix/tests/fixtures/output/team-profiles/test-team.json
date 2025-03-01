@@ -1,0 +1,17 @@
+{
+  "id": "test-team",
+  "name": "Test Team",
+  "rules": {
+    "errorCategories": {
+      "CUSTOM_CATEGORY": [
+        "no-console",
+        "no-alert"
+      ]
+    },
+    "configOverrides": {
+      "USE_AI_FOR_UNUSED_VARS": true
+    }
+  },
+  "created": "2025-03-01T18:38:26.103Z",
+  "updated": "2025-03-01T18:38:26.103Z"
+}

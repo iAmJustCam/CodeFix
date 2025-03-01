@@ -1,0 +1,79 @@
+[
+  {
+    "timestamp": "2025-03-01T16:55:05.561Z",
+    "varName": "discount",
+    "filePath": "/Users/cameroncatri/Desktop/Hybrid-Linter/eslint-autofix/tests/fixtures/unused-var.ts",
+    "analysisType": "GENUINE_UNUSED",
+    "confidence": 0.7,
+    "recommendedAction": "PREFIX",
+    "similarVariablesCount": 0,
+    "referencesCount": 2,
+    "gitRefactorProbability": 0
+  },
+  {
+    "timestamp": "2025-03-01T17:01:34.374Z",
+    "varName": "unusedVar",
+    "filePath": "/Users/cameroncatri/Desktop/Hybrid-Linter/eslint-autofix/tests/fixtures/ide-test-file.ts",
+    "analysisType": "GENUINE_UNUSED",
+    "confidence": 0.8,
+    "recommendedAction": "PREFIX",
+    "similarVariablesCount": 1,
+    "referencesCount": 0,
+    "gitRefactorProbability": 0
+  },
+  {
+    "timestamp": "2025-03-01T17:09:26.138Z",
+    "varName": "unusedVar",
+    "filePath": "/Users/cameroncatri/Desktop/Hybrid-Linter/eslint-autofix/tests/fixtures/ide-test-file.ts",
+    "analysisType": "GENUINE_UNUSED",
+    "confidence": 0.8,
+    "recommendedAction": "PREFIX",
+    "similarVariablesCount": 1,
+    "referencesCount": 0,
+    "gitRefactorProbability": 0
+  },
+  {
+    "timestamp": "2025-03-01T17:19:14.475Z",
+    "varName": "unusedVar",
+    "filePath": "/Users/cameroncatri/Desktop/Hybrid-Linter/eslint-autofix/tests/fixtures/ide-test-file.ts",
+    "analysisType": "GENUINE_UNUSED",
+    "confidence": 0.8,
+    "recommendedAction": "PREFIX",
+    "similarVariablesCount": 1,
+    "referencesCount": 0,
+    "gitRefactorProbability": 0
+  },
+  {
+    "timestamp": "2025-03-01T18:06:24.146Z",
+    "varName": "unusedVar",
+    "filePath": "/Users/cameroncatri/Desktop/Hybrid-Linter/eslint-autofix/tests/fixtures/ide-test-file.ts",
+    "analysisType": "GENUINE_UNUSED",
+    "confidence": 0.8,
+    "recommendedAction": "PREFIX",
+    "similarVariablesCount": 1,
+    "referencesCount": 0,
+    "gitRefactorProbability": 0
+  },
+  {
+    "timestamp": "2025-03-01T18:31:55.567Z",
+    "varName": "unusedVar",
+    "filePath": "/Users/cameroncatri/Desktop/Hybrid-Linter/eslint-autofix/tests/fixtures/ide-test-file.ts",
+    "analysisType": "GENUINE_UNUSED",
+    "confidence": 0.8,
+    "recommendedAction": "PREFIX",
+    "similarVariablesCount": 1,
+    "referencesCount": 0,
+    "gitRefactorProbability": 0
+  },
+  {
+    "timestamp": "2025-03-01T18:38:26.130Z",
+    "varName": "unusedVar",
+    "filePath": "/Users/cameroncatri/Desktop/Hybrid-Linter/eslint-autofix/tests/fixtures/ide-test-file.ts",
+    "analysisType": "GENUINE_UNUSED",
+    "confidence": 0.8,
+    "recommendedAction": "PREFIX",
+    "similarVariablesCount": 1,
+    "referencesCount": 0,
+    "gitRefactorProbability": 0
+  }
+]

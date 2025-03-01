@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fix-1740854306100-400",
+    "timestamp": "2025-03-01T18:38:26.100Z",
+    "filePath": "/Users/cameroncatri/Desktop/Hybrid-Linter/eslint-autofix/tests/fixtures/unused-var.ts",
+    "issue": {
+      "ruleId": "@typescript-eslint/no-unused-vars",
+      "message": "'discount' is defined but never used",
+      "line": 3
+    },
+    "fixType": "PREFIX",
+    "details": {
+      "original": "discount",
+      "fixed": "_discount"
+    },
+    "fileInfo": {
+      "dependencies": 0,
+      "reverseDepCount": 0,
+      "hasGitHistory": false,
+      "refactorProbability": 0
+    }
+  },
+  {
+    "id": "fix-1740854306118-312",
+    "timestamp": "2025-03-01T18:38:26.118Z",
+    "filePath": "/Users/cameroncatri/Desktop/Hybrid-Linter/eslint-autofix/tests/fixtures/unused-var.ts",
+    "issue": {
+      "ruleId": "@typescript-eslint/no-unused-vars",
+      "line": 3
+    },
+    "fixType": "PREFIX",
+    "details": {
+      "original": "discount",
+      "fixed": "_discount"
+    },
+    "fileInfo": {
+      "dependencies": 0,
+      "reverseDepCount": 0,
+      "hasGitHistory": false,
+      "refactorProbability": 0
+    }
+  },
+  {
+    "id": "fix-1740854306118-484",
+    "timestamp": "2025-03-01T18:38:26.118Z",
+    "filePath": "/Users/cameroncatri/Desktop/Hybrid-Linter/eslint-autofix/tests/fixtures/any-type.ts",
+    "issue": {
+      "ruleId": "@typescript-eslint/no-explicit-any",
+      "line": 2
+    },
+    "fixType": "TYPE_FIX",
+    "details": {
+      "change": "any → unknown"
+    },
+    "fileInfo": {
+      "dependencies": 0,
+      "reverseDepCount": 0,
+      "hasGitHistory": false,
+      "refactorProbability": 0
+    }
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "projectStats": {
+    "totalFiles": 22,
+    "totalVariables": 135,
+    "totalFixes": 3,
+    "fixesByType": {
+      "PREFIX": 2,
+      "TYPE_FIX": 1
+    },
+    "filesWithGitHistory": 0,
+    "cacheSize": 1,
+    "processingStats": {
+      "totalFilesProcessed": 22,
+      "totalTimeMs": 6.851042000000007,
+      "averageFileTimeMs": 0.3114110000000003,
+      "parallelEfficiency": 0,
+      "resourceUsage": {
+        "cpu": 0,
+        "memory": 0
+      }
+    },
+    "decisionStats": {
+      "totalDecisions": 6,
+      "byType": {
+        "GENUINE_UNUSED": 6
+      },
+      "byAction": {
+        "PREFIX": 6
+      },
+      "averageConfidence": 0.7833333333333332
+    },
+    "usageStats": {
+      "totalActions": 5,
+      "byType": {
+        "analysis": 2,
+        "fix": 3
+      },
+      "userCount": 0,
+      "fixCount": 3,
+      "analysisCount": 2
+    },
+    "parallelStats": {
+      "workerCount": 2,
+      "totalWorkerTimeMs": 6.851042000000007,
+      "speedupFactor": 0,
+      "averageFileTimeMs": 0.3114110000000003
+    },
+    "languageSupport": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "py"
+    ],
+    "teamProfiles": 1,
+    "rollbacks": 0,
+    "checkpoints": 1
+  },
+  "fixesByType": {
+    "PREFIX": 2,
+    "TYPE_FIX": 1
+  },
+  "fixesByFile": {
+    ".ts": 3
+  },
+  "fixTimeSeriesData": [
+    {
+      "date": "2025-03-01",
+      "fixes": 0.30000000000000004
+    }
+  ],
+  "aiAnalysisByType": {
+    "GENUINE_UNUSED": 6
+  },
+  "aiAnalysisByAction": {
+    "PREFIX": 6
+  },
+  "roi": {
+    "totalFixes": 3,
+    "timeSavedMinutes": 15,
+    "timeSavedFormatted": "0h 15m",
+    "estimatedCostSavings": 0
+  }
+}

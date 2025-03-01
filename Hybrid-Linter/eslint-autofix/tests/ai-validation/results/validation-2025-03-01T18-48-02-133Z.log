@@ -1,0 +1,964 @@
+AI Response Validation - 2025-03-01T18:48:02.134Z
+
+
+
+=== Test Case: Variable Renamed Across Modules ===
+Tests AI's ability to detect variable renaming issues between modules
+
+--- Check 1 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendation, possibleActions
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation",
+      "possibleActions"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation",
+      "possibleActions"
+    ]
+  }
+}
+
+--- Check 2 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendation, possibleActions
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation",
+      "possibleActions"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation",
+      "possibleActions"
+    ]
+  }
+}
+
+--- Check 3 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendation, possibleActions
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation",
+      "possibleActions"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation",
+      "possibleActions"
+    ]
+  }
+}
+
+
+
+=== Test Case: Parameter Name Mismatch ===
+Tests AI's ability to detect function parameter changes
+
+--- Check 1 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendation
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation"
+    ]
+  }
+}
+
+--- Check 2 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendation
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation"
+    ]
+  }
+}
+
+--- Check 3 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendation
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation"
+    ]
+  }
+}
+
+
+
+=== Test Case: Type Definition Change ===
+Tests AI's ability to detect interface property renaming
+
+--- Check 1 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendation
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation"
+    ]
+  }
+}
+
+--- Check 2 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendation
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation"
+    ]
+  }
+}
+
+--- Check 3 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendation
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation"
+    ]
+  }
+}
+
+
+
+=== Test Case: Unused Variable Analysis ===
+Tests AI's analysis of a genuinely unused variable
+
+--- Check 1 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  }
+}
+
+--- Check 2 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  }
+}
+
+--- Check 3 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  }
+}
+
+
+
+=== Test Case: Any Type Replacement ===
+Tests AI's recommendations for replacing 'any' type
+
+--- Check 1 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: unknown
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "unknown"
+    ],
+    "missingInApi": [
+      "unknown"
+    ]
+  }
+}
+
+--- Check 2 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: unknown
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "unknown"
+    ],
+    "missingInApi": [
+      "unknown"
+    ]
+  }
+}
+
+--- Check 3 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: unknown
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "unknown"
+    ],
+    "missingInApi": [
+      "unknown"
+    ]
+  }
+}
+
+
+
+=== Test Case: Typo Detection ===
+Tests AI's ability to detect variable name typos
+
+--- Check 1 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  }
+}
+
+--- Check 2 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  }
+}
+
+--- Check 3 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  }
+}
+
+
+
+=== Test Case: Refactoring Leftover ===
+Tests AI's detection of leftover code after refactoring
+
+--- Check 1 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  }
+}
+
+--- Check 2 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  }
+}
+
+--- Check 3 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  }
+}
+
+
+
+=== Test Case: Future Use Variable ===
+Tests AI's detection of variables intended for future use
+
+--- Check 1 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  }
+}
+
+--- Check 2 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  }
+}
+
+--- Check 3 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  }
+}
+
+
+
+=== Test Case: Advanced Type Analysis ===
+Tests AI's understanding of advanced TypeScript types
+
+--- Check 1 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: string comparison, literal types
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "string comparison",
+      "literal types"
+    ],
+    "missingInApi": [
+      "string comparison",
+      "literal types"
+    ]
+  }
+}
+
+--- Check 2 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: string comparison, literal types
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "string comparison",
+      "literal types"
+    ],
+    "missingInApi": [
+      "string comparison",
+      "literal types"
+    ]
+  }
+}
+
+--- Check 3 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: string comparison, literal types
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "string comparison",
+      "literal types"
+    ],
+    "missingInApi": [
+      "string comparison",
+      "literal types"
+    ]
+  }
+}
+
+
+
+=== Test Case: Complex Refactoring Analysis ===
+Tests AI's ability to understand complex refactoring patterns
+
+--- Check 1 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, potentialIssues, recommendations
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "potentialIssues",
+      "recommendations"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "potentialIssues",
+      "recommendations"
+    ]
+  }
+}
+
+--- Check 2 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, potentialIssues, recommendations
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "potentialIssues",
+      "recommendations"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "potentialIssues",
+      "recommendations"
+    ]
+  }
+}
+
+--- Check 3 ---
+Passed: false
+Similarity: 1.0000
+Reason: Mock response missing key phrases: analysisType, potentialIssues, recommendations
+
+Mock Response:
+Mock AI response for testing
+
+API Response:
+Mock AI response for testing
+
+Details: {
+  "format": "text",
+  "keyPhrases": {
+    "missingInMock": [
+      "analysisType",
+      "potentialIssues",
+      "recommendations"
+    ],
+    "missingInApi": [
+      "analysisType",
+      "potentialIssues",
+      "recommendations"
+    ]
+  }
+}
+
+
+==================================================
+FINAL RESULTS
+==================================================
+
+Total checks: 30
+Passed: 0 (0.0%)
+Failed: 30
+Similar responses: 30 (100.0%)
+Duration: 0.01s
+
+ISSUES:
+1. Variable Renamed Across Modules (check 0): Mock response missing key phrases: analysisType, confidence, explanation, recommendation, possibleActions
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendation","possibleActions"],"missingInApi":["analysisType","confidence","explanation","recommendation","possibleActions"]}}
+2. Variable Renamed Across Modules (check 1): Mock response missing key phrases: analysisType, confidence, explanation, recommendation, possibleActions
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendation","possibleActions"],"missingInApi":["analysisType","confidence","explanation","recommendation","possibleActions"]}}
+3. Variable Renamed Across Modules (check 2): Mock response missing key phrases: analysisType, confidence, explanation, recommendation, possibleActions
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendation","possibleActions"],"missingInApi":["analysisType","confidence","explanation","recommendation","possibleActions"]}}
+4. Parameter Name Mismatch (check 0): Mock response missing key phrases: analysisType, confidence, explanation, recommendation
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendation"],"missingInApi":["analysisType","confidence","explanation","recommendation"]}}
+5. Parameter Name Mismatch (check 1): Mock response missing key phrases: analysisType, confidence, explanation, recommendation
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendation"],"missingInApi":["analysisType","confidence","explanation","recommendation"]}}
+6. Parameter Name Mismatch (check 2): Mock response missing key phrases: analysisType, confidence, explanation, recommendation
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendation"],"missingInApi":["analysisType","confidence","explanation","recommendation"]}}
+7. Type Definition Change (check 0): Mock response missing key phrases: analysisType, confidence, explanation, recommendation
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendation"],"missingInApi":["analysisType","confidence","explanation","recommendation"]}}
+8. Type Definition Change (check 1): Mock response missing key phrases: analysisType, confidence, explanation, recommendation
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendation"],"missingInApi":["analysisType","confidence","explanation","recommendation"]}}
+9. Type Definition Change (check 2): Mock response missing key phrases: analysisType, confidence, explanation, recommendation
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendation"],"missingInApi":["analysisType","confidence","explanation","recommendation"]}}
+10. Unused Variable Analysis (check 0): Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendedAction"],"missingInApi":["analysisType","confidence","explanation","recommendedAction"]}}
+11. Unused Variable Analysis (check 1): Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendedAction"],"missingInApi":["analysisType","confidence","explanation","recommendedAction"]}}
+12. Unused Variable Analysis (check 2): Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendedAction"],"missingInApi":["analysisType","confidence","explanation","recommendedAction"]}}
+13. Any Type Replacement (check 0): Mock response missing key phrases: unknown
+   Details: {"format":"text","keyPhrases":{"missingInMock":["unknown"],"missingInApi":["unknown"]}}
+14. Any Type Replacement (check 1): Mock response missing key phrases: unknown
+   Details: {"format":"text","keyPhrases":{"missingInMock":["unknown"],"missingInApi":["unknown"]}}
+15. Any Type Replacement (check 2): Mock response missing key phrases: unknown
+   Details: {"format":"text","keyPhrases":{"missingInMock":["unknown"],"missingInApi":["unknown"]}}
+16. Typo Detection (check 0): Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendedAction"],"missingInApi":["analysisType","confidence","explanation","recommendedAction"]}}
+17. Typo Detection (check 1): Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendedAction"],"missingInApi":["analysisType","confidence","explanation","recommendedAction"]}}
+18. Typo Detection (check 2): Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendedAction"],"missingInApi":["analysisType","confidence","explanation","recommendedAction"]}}
+19. Refactoring Leftover (check 0): Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendedAction"],"missingInApi":["analysisType","confidence","explanation","recommendedAction"]}}
+20. Refactoring Leftover (check 1): Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendedAction"],"missingInApi":["analysisType","confidence","explanation","recommendedAction"]}}
+21. Refactoring Leftover (check 2): Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendedAction"],"missingInApi":["analysisType","confidence","explanation","recommendedAction"]}}
+22. Future Use Variable (check 0): Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendedAction"],"missingInApi":["analysisType","confidence","explanation","recommendedAction"]}}
+23. Future Use Variable (check 1): Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendedAction"],"missingInApi":["analysisType","confidence","explanation","recommendedAction"]}}
+24. Future Use Variable (check 2): Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","confidence","explanation","recommendedAction"],"missingInApi":["analysisType","confidence","explanation","recommendedAction"]}}
+25. Advanced Type Analysis (check 0): Mock response missing key phrases: string comparison, literal types
+   Details: {"format":"text","keyPhrases":{"missingInMock":["string comparison","literal types"],"missingInApi":["string comparison","literal types"]}}
+26. Advanced Type Analysis (check 1): Mock response missing key phrases: string comparison, literal types
+   Details: {"format":"text","keyPhrases":{"missingInMock":["string comparison","literal types"],"missingInApi":["string comparison","literal types"]}}
+27. Advanced Type Analysis (check 2): Mock response missing key phrases: string comparison, literal types
+   Details: {"format":"text","keyPhrases":{"missingInMock":["string comparison","literal types"],"missingInApi":["string comparison","literal types"]}}
+28. Complex Refactoring Analysis (check 0): Mock response missing key phrases: analysisType, potentialIssues, recommendations
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","potentialIssues","recommendations"],"missingInApi":["analysisType","potentialIssues","recommendations"]}}
+29. Complex Refactoring Analysis (check 1): Mock response missing key phrases: analysisType, potentialIssues, recommendations
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","potentialIssues","recommendations"],"missingInApi":["analysisType","potentialIssues","recommendations"]}}
+30. Complex Refactoring Analysis (check 2): Mock response missing key phrases: analysisType, potentialIssues, recommendations
+   Details: {"format":"text","keyPhrases":{"missingInMock":["analysisType","potentialIssues","recommendations"],"missingInApi":["analysisType","potentialIssues","recommendations"]}}

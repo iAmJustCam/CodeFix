@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Variable Renamed Across Modules",
+    "description": "Tests AI's ability to detect variable renaming issues between modules",
+    "prompt": "Analyze these two TypeScript files where one might have been refactored:\n\nFile 1 (userService.ts):\n```typescript\nexport function getUserData(userId: string) {\n  return {\n    id: userId,\n    name: 'John Doe',\n    email: 'john@example.com'\n  };\n}\n\nexport function updateUserInfo(userId: string, userInfo: any) {\n  // Previously this was named 'userData', but was renamed to 'userInfo'\n  console.log(`Updating user ${userId}`);\n  return true;\n}\n```\n\nFile 2 (userController.ts):\n```typescript\nimport { getUserData, updateUserInfo } from './userService';\n\nexport function handleUserUpdate(userId: string) {\n  // This variable is flagged as unused\n  const userData = getUserData(userId);\n  \n  // Should be using 'userData' parameter here\n  return updateUserInfo(userId, {\n    name: 'Updated Name',\n    email: 'updated@example.com'\n  });\n}\n```\n\nIs 'userData' genuinely unused or is this a refactoring issue? Format your response as JSON with analysisType, confidence, explanation, recommendation and possibleActions.",
+    "model": "gpt-4",
+    "expectedProperties": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation",
+      "possibleActions"
+    ]
+  },
+  {
+    "name": "Parameter Name Mismatch",
+    "description": "Tests AI's ability to detect function parameter changes",
+    "prompt": "Analyze these two TypeScript files for parameter name mismatches:\n\nFile 1 (configUtils.ts):\n```typescript\nexport function initializeApp(config: any) {\n  // This function previously accepted 'options' but was renamed to 'config'\n  console.log('Initializing app with config:', config);\n  return {\n    isInitialized: true,\n    config\n  };\n}\n```\n\nFile 2 (app.ts):\n```typescript\nimport { initializeApp } from './configUtils';\n\nfunction startApp() {\n  // The 'options' parameter is flagged as unused\n  const options = {\n    debug: true,\n    logLevel: 'info'\n  };\n  \n  // Should be passing 'options' as 'config'\n  const app = initializeApp({\n    debug: false,\n    logLevel: 'error'\n  });\n  \n  return app;\n}\n```\n\nWhat's the issue with the 'options' variable in app.ts? Format your response as JSON with analysisType, confidence, explanation, recommendation and possibleActions fields.",
+    "model": "gpt-4",
+    "expectedProperties": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation"
+    ]
+  },
+  {
+    "name": "Type Definition Change",
+    "description": "Tests AI's ability to detect interface property renaming",
+    "prompt": "Analyze these two TypeScript files where the interface might have changed:\n\nFile 1 (types.ts):\n```typescript\nexport interface CardProps {\n  title: string;\n  content: string; // This was previously named 'description'\n  imageUrl?: string;\n  onClick?: () => void;\n}\n```\n\nFile 2 (component.tsx):\n```typescript\nimport React from 'react';\nimport { CardProps } from './types';\n\nconst Card: React.FC<CardProps> = (props) => {\n  const { \n    title, \n    // 'description' is flagged as unused because it was renamed to 'content' in the type definition\n    description, \n    imageUrl,\n    onClick\n  } = props;\n  \n  return (\n    <div className=\"card\" onClick={onClick}>\n      <h2>{title}</h2>\n      <p>{description}</p>\n      {imageUrl && <img src={imageUrl} alt={title} />}\n    </div>\n  );\n};\n\nexport default Card;\n```\n\nExplain why 'description' is flagged as unused. Format your response as JSON with analysisType, confidence, explanation, recommendation and possibleActions fields.",
+    "model": "gpt-4",
+    "expectedProperties": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendation"
+    ]
+  },
+  {
+    "name": "Unused Variable Analysis",
+    "description": "Tests AI's analysis of a genuinely unused variable",
+    "prompt": "Analyze this TypeScript file:\n\n```typescript\nfunction calculateTotal(subtotal: number, tax: number, shipping: number) {\n  const discount = 10; // This variable is unused\n  return subtotal + tax + shipping;\n}\nexport default calculateTotal;\n```\n\nWhat type of issue is the 'discount' variable? Is it genuinely unused or a refactoring issue?\nFormat your response as JSON with analysisType, confidence, explanation, and recommendedAction fields.",
+    "expectedProperties": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  },
+  {
+    "name": "Any Type Replacement",
+    "description": "Tests AI's recommendations for replacing 'any' type",
+    "prompt": "What should be used instead of 'any' in this TypeScript code?\n\n```typescript\nfunction processData(data: any) {\n  return data.toString();\n}\nexport default processData;\n```\n\nFormat your answer as a concise explanation.",
+    "expectedProperties": ["unknown"]
+  },
+  {
+    "name": "Typo Detection",
+    "description": "Tests AI's ability to detect variable name typos",
+    "prompt": "Analyze this TypeScript code for potential typos:\n\n```typescript\nfunction formatUserData(userData: any) {\n  const userNmae = userData.name.toUpperCase();\n  const userEmail = userData.email.toLowerCase();\n  \n  return {\n    name: userNmae, // Typo here\n    email: userEmail\n  };\n}\n```\n\nIs there a variable naming issue? Format your response as JSON with analysisType, confidence, explanation, and recommendedAction fields.",
+    "expectedProperties": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  },
+  {
+    "name": "Refactoring Leftover",
+    "description": "Tests AI's detection of leftover code after refactoring",
+    "prompt": "Analyze this TypeScript code for refactoring leftovers:\n\n```typescript\nfunction calculateTax(amount: number, taxRate: number) {\n  const taxAmount = amount * (taxRate / 100);\n  const taxCalculation = Math.round(taxAmount * 100) / 100;\n  \n  // Old implementation used this temporary variable\n  const roundedTax = taxCalculation;\n  \n  return taxCalculation;\n}\n```\n\nWhat's the issue with 'roundedTax'? Format your response as JSON with analysisType, confidence, explanation, and recommendedAction fields.",
+    "expectedProperties": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  },
+  {
+    "name": "Future Use Variable",
+    "description": "Tests AI's detection of variables intended for future use",
+    "prompt": "Analyze this TypeScript code:\n\n```typescript\nfunction processUserAction(action: string, userId: string) {\n  // For future audit logging implementation\n  const timestamp = new Date().toISOString();\n  \n  console.log(`Processing ${action} for user ${userId}`);\n  return true;\n}\n```\n\nWhat's the situation with the 'timestamp' variable? Format your response as JSON with analysisType, confidence, explanation, and recommendedAction fields.",
+    "expectedProperties": [
+      "analysisType",
+      "confidence",
+      "explanation",
+      "recommendedAction"
+    ]
+  },
+  {
+    "name": "Advanced Type Analysis",
+    "description": "Tests AI's understanding of advanced TypeScript types",
+    "prompt": "What's wrong with this TypeScript code and how should it be fixed?\n\n```typescript\ntype UserRole = 'admin' | 'editor' | 'viewer';\n\nfunction hasPermission(user: any, requiredRole: UserRole): boolean {\n  return user.role >= requiredRole;\n}\n```\n\nFormat your answer as a concise explanation focusing on type issues.",
+    "expectedProperties": ["string comparison", "literal types"]
+  },
+  {
+    "name": "Complex Refactoring Analysis",
+    "description": "Tests AI's ability to understand complex refactoring patterns",
+    "prompt": "Analyze these two versions of the same module for refactoring issues:\n\nOriginal version:\n```typescript\nexport function processTransaction(transaction) {\n  const { id, amount, currency, user } = transaction;\n  \n  // Log the transaction\n  console.log(`Processing transaction ${id} for ${amount} ${currency}`);\n  \n  // Get user details\n  const userDetails = getUserDetails(user);\n  \n  // Verify funds\n  const hasSufficientFunds = checkBalance(user, amount, currency);\n  \n  if (hasSufficientFunds) {\n    // Process the payment\n    const result = processPayment(id, amount, currency, userDetails);\n    return { success: true, transactionId: id };\n  } else {\n    return { success: false, error: 'Insufficient funds' };\n  }\n}\n```\n\nRefactored version:\n```typescript\nimport { TransactionProcessor } from './transaction-processor';\n\nexport function processTransaction(transaction) {\n  const { id, amount, currency, user } = transaction;\n  \n  // Log the transaction\n  console.log(`Processing transaction ${id} for ${amount} ${currency}`);\n  \n  // Get user details\n  const userDetails = getUserDetails(user);\n  \n  // Create processor instance\n  const processor = new TransactionProcessor(userDetails);\n  \n  // Process with new implementation\n  return processor.process({\n    transactionId: id,\n    amount,\n    currency\n  });\n}\n```\n\nIdentify the key changes and potential issues. Format your response as JSON with analysisType, potentialIssues, and recommendations fields.",
+    "model": "gpt-4",
+    "expectedProperties": ["analysisType", "potentialIssues", "recommendations"]
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "name": "hybrid-linter",
+  "version": "1.0.0",
+  "description": "Advanced TypeScript linting with AI-assisted error correction",
+  "type": "module",
+  "main": "eslint-autofix.js",
+  "bin": {
+    "hybrid-linter": "./eslint-autofix.js"
+  },
+  "scripts": {
+    "fix": "node eslint-autofix.js",
+    "fix:interactive": "node eslint-autofix.js --interactive",
+    "fix:batch": "node eslint-autofix.js --batch",
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "node --experimental-vm-modules node_modules/.bin/mocha tests/unit/**/*.test.js tests/unit/ai-analyzer/**/*.test.js",
+    "test:integration": "node tests/run-integration-tests.js",
+    "test:parallel": "node tests/run-integration-tests.js --test=\"Parallel Processing\"",
+    "test:cross-file": "node tests/run-integration-tests.js --test=\"Cross-File Analysis\"",
+    "test:ai": "node tests/run-integration-tests.js --test=\"AI Analysis Confidence\"",
+    "test:rollback": "node tests/run-integration-tests.js --test=\"Rollback & Checkpoints\"",
+    "test:team": "node tests/run-integration-tests.js --test=\"Team Profiles\"",
+    "test:language": "node tests/run-integration-tests.js --test=\"Language Expansion\"",
+    "test:monetization": "node tests/run-integration-tests.js --test=\"Monetization Features\"",
+    "test:reporting": "node tests/run-integration-tests.js --test=\"Visual Reporting\"",
+    "test:ide": "node tests/run-integration-tests.js --test=\"IDE Integration\"",
+    "validate-ai": "node scripts/run-validation.js",
+    "toggle-mock-ai": "node toggle-mock-ai.js"
+  },
+  "keywords": [
+    "linting",
+    "typescript",
+    "ai",
+    "automation",
+    "code-quality",
+    "refactoring"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.1",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "diff": "^5.1.0",
+    "dotenv": "^16.4.7",
+    "ora": "^7.0.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react": "^7.33.2",
+    "mocha": "^10.8.2"
+  }
+}

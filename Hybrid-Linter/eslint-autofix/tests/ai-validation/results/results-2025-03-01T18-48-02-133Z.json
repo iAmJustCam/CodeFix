@@ -1,0 +1,641 @@
+{
+  "total": 30,
+  "passed": 0,
+  "failed": 30,
+  "similar": 30,
+  "issues": [
+    {
+      "testCase": "Variable Renamed Across Modules",
+      "checkIndex": 0,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendation, possibleActions",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation",
+            "possibleActions"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation",
+            "possibleActions"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Variable Renamed Across Modules",
+      "checkIndex": 1,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendation, possibleActions",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation",
+            "possibleActions"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation",
+            "possibleActions"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Variable Renamed Across Modules",
+      "checkIndex": 2,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendation, possibleActions",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation",
+            "possibleActions"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation",
+            "possibleActions"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Parameter Name Mismatch",
+      "checkIndex": 0,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendation",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Parameter Name Mismatch",
+      "checkIndex": 1,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendation",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Parameter Name Mismatch",
+      "checkIndex": 2,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendation",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Type Definition Change",
+      "checkIndex": 0,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendation",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Type Definition Change",
+      "checkIndex": 1,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendation",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Type Definition Change",
+      "checkIndex": 2,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendation",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendation"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Unused Variable Analysis",
+      "checkIndex": 0,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Unused Variable Analysis",
+      "checkIndex": 1,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Unused Variable Analysis",
+      "checkIndex": 2,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Any Type Replacement",
+      "checkIndex": 0,
+      "reason": "Mock response missing key phrases: unknown",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "unknown"
+          ],
+          "missingInApi": [
+            "unknown"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Any Type Replacement",
+      "checkIndex": 1,
+      "reason": "Mock response missing key phrases: unknown",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "unknown"
+          ],
+          "missingInApi": [
+            "unknown"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Any Type Replacement",
+      "checkIndex": 2,
+      "reason": "Mock response missing key phrases: unknown",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "unknown"
+          ],
+          "missingInApi": [
+            "unknown"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Typo Detection",
+      "checkIndex": 0,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Typo Detection",
+      "checkIndex": 1,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Typo Detection",
+      "checkIndex": 2,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Refactoring Leftover",
+      "checkIndex": 0,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Refactoring Leftover",
+      "checkIndex": 1,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Refactoring Leftover",
+      "checkIndex": 2,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Future Use Variable",
+      "checkIndex": 0,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Future Use Variable",
+      "checkIndex": 1,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Future Use Variable",
+      "checkIndex": 2,
+      "reason": "Mock response missing key phrases: analysisType, confidence, explanation, recommendedAction",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "confidence",
+            "explanation",
+            "recommendedAction"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Advanced Type Analysis",
+      "checkIndex": 0,
+      "reason": "Mock response missing key phrases: string comparison, literal types",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "string comparison",
+            "literal types"
+          ],
+          "missingInApi": [
+            "string comparison",
+            "literal types"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Advanced Type Analysis",
+      "checkIndex": 1,
+      "reason": "Mock response missing key phrases: string comparison, literal types",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "string comparison",
+            "literal types"
+          ],
+          "missingInApi": [
+            "string comparison",
+            "literal types"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Advanced Type Analysis",
+      "checkIndex": 2,
+      "reason": "Mock response missing key phrases: string comparison, literal types",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "string comparison",
+            "literal types"
+          ],
+          "missingInApi": [
+            "string comparison",
+            "literal types"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Complex Refactoring Analysis",
+      "checkIndex": 0,
+      "reason": "Mock response missing key phrases: analysisType, potentialIssues, recommendations",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "potentialIssues",
+            "recommendations"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "potentialIssues",
+            "recommendations"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Complex Refactoring Analysis",
+      "checkIndex": 1,
+      "reason": "Mock response missing key phrases: analysisType, potentialIssues, recommendations",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "potentialIssues",
+            "recommendations"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "potentialIssues",
+            "recommendations"
+          ]
+        }
+      }
+    },
+    {
+      "testCase": "Complex Refactoring Analysis",
+      "checkIndex": 2,
+      "reason": "Mock response missing key phrases: analysisType, potentialIssues, recommendations",
+      "details": {
+        "format": "text",
+        "keyPhrases": {
+          "missingInMock": [
+            "analysisType",
+            "potentialIssues",
+            "recommendations"
+          ],
+          "missingInApi": [
+            "analysisType",
+            "potentialIssues",
+            "recommendations"
+          ]
+        }
+      }
+    }
+  ],
+  "duration": "0.01",
+  "similarity": 1,
+  "passRate": 0
+}
